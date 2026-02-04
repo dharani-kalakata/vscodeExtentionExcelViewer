@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--vscode-editor-background);
+  color: var(--vscode-editor-foreground);
+  font-family: var(--vscode-font-family);
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__body {
+  flex: 1;
+  min-height: 0;
+}
+
+.app__loading {
+  padding: 12px;
+  color: var(--vscode-descriptionForeground);
+}
+
+.app__error {
+  padding: 12px;
+  border: 1px solid var(--vscode-input-border);
+  background: var(--vscode-editor-background);
+  border-radius: 4px;
+  margin: 16px;
+}
+
+.app__errorTitle {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--vscode-errorForeground);
+}
+
+.app__errorBody {
+  color: var(--vscode-descriptionForeground);
+  white-space: pre-wrap;
+}
+
+.fortune-sheet-container {
+  height: 100%;
+}

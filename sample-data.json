@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "age": 30,
+    "email": "alice@example.com",
+    "department": "Engineering",
+    "salary": 85000,
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "age": 25,
+    "email": "bob@example.com",
+    "department": "Marketing",
+    "salary": 65000,
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Carol White",
+    "age": 35,
+    "email": "carol@example.com",
+    "department": "Sales",
+    "salary": 75000,
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "age": 28,
+    "email": "david@example.com",
+    "department": "Engineering",
+    "salary": 90000,
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Eva Davis",
+    "age": 32,
+    "email": "eva@example.com",
+    "department": "HR",
+    "salary": 70000,
+    "active": true
+  }
+]

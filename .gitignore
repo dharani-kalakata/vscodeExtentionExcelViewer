@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+
+# IDE & OS
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+dist/
+build/
+.cache/
+*.tmp
+
+# Editor backups
+*.bak
+*~
+
+# OS specific
+Thumbs.db
+
+# Export/deployment staging (optional - uncomment if you use it)
+# export/
+
+# Test coverage
+coverage/
+.nyc_output/

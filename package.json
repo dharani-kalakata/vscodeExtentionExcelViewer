@@ -1,0 +1,54 @@
+{
+  "name": "json-fortunesheet-editor",
+  "displayName": "Raven Viewer",
+  "version": "0.0.1",
+  "description": "Custom JSON/CSV/Excel editor backed by FortuneSheet.",
+  "main": "./extension.js",
+  "scripts": {
+    "build:webview": "node scripts/build-webview.js",
+    "watch:webview": "node scripts/build-webview.js --watch",
+    "build": "npm run build:webview",
+    "test": "echo \"No tests defined\""
+  },
+  "keywords": [
+    "vscode",
+    "custom-editor",
+    "json",
+    "fortune-sheet"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "jsonFortuneSheet.editor",
+        "displayName": "Raven Viewer",
+        "selector": [
+          {
+            "filenamePattern": "*.json"
+          },
+          {
+            "filenamePattern": "*.csv"
+          },
+          {
+            "filenamePattern": "*.xlsx"
+          }
+        ],
+        "priority": "option"
+      }
+    ]
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@fortune-sheet/react": "^1.0.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2"
+  }
+}
